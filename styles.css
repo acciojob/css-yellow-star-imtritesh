@@ -9,12 +9,11 @@
   margin-right: .9em;
   margin-bottom: 1.2em;
   
-  border-right:  .3em solid transparent;
-  border-bottom: .7em  solid #FC0;
-  border-left:   .3em solid transparent;
+  border-right:  50px solid rgba(0, 0, 0, 0);
+  border-bottom: 100px  solid rgb(255, 255, 0);
+  border-left:   50px solid rgba(0, 0, 0, 0);
 
   /* Controlls the size of the stars. */
-  font-size: 24px;
   
   &:before, &:after {
     content: '';
@@ -24,17 +23,13 @@
     height: 0;
     
     position: absolute;
-    top: .6em;
-    left: -1em;
+    top: 30px;
+    left: -50px;
   
-    border-right:  1em solid transparent;
-    border-bottom: .7em  solid #FC0;
-    border-left:   1em solid transparent;
+    border-right:  50px solid rgba(0, 0, 0, 0);
+  border-bottom: 100px  solid rgb(255, 255, 0);
+  border-left:   50px solid rgba(0, 0, 0, 0);
   
-    transform: rotate(-35deg);
-  }
-  
-  &:after {  
-    transform: rotate(35deg);
+    transform: rotate(-180deg);
   }
 }
